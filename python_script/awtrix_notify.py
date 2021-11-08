@@ -17,5 +17,5 @@ if work.get("moveIcon","") == "" :
 #work["force"]=True
 work["repeatIcon"]=True
 
-hass.services.call('mqtt', 'publish', { "topic": work["topix"+"/notify", "payload":str(work) }, False)
+hass.services.call('mqtt', 'publish', { "topic": work["topix"]+"/notify", "payload":str(work) }, False)
 
