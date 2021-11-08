@@ -11,7 +11,7 @@ Skripte als `awtrix_notify.py` in das Verz. /config/python_scripts ablegen
 
 Aufgerufen werden kann das Skript dann über Automatisierungen, z.B.:
 
-`
+```
 - id: 'a157427619503te0'
   alias: AWTRIX Aussentemp
   description: Bei jeder neuen Messung Aussentemp. auf Matrix anzeigen
@@ -25,14 +25,14 @@ Aufgerufen werden kann das Skript dann über Automatisierungen, z.B.:
       icon: 233
       lifetime: 10
     service: python_script.awtrix_notify
-`
+```
 
 Unter Datatemplate können alle Parameter von Awtrix die für "customapp" gültig sind verwendet werden. [Doku für notify](https://awtrix.github.io/AWTRIX2.0-Docs_Beta/#/de-de/api?id=benachrichtigungen)
 
 ### Zwei Awtrixe
 Die zweite Awtrix muss unter einem anderen Topic angebunden werden. Die erste sollte unter "awtrix" stehen, die zweite unter einem anderen topic, z.B. "awtrix2"
 
-`
+```
 - id: 'a157427619503te0'
   alias: AWTRIX Aussentemp
   description: Bei jeder neuen Messung Aussentemp. auf Matrix anzeigen
@@ -53,4 +53,4 @@ Die zweite Awtrix muss unter einem anderen Topic angebunden werden. Die erste so
       icon: 233
       lifetime: 10
     service: python_script.awtrix_notify
-`
+```
