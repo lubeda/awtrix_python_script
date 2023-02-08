@@ -1,3 +1,9 @@
+# **Sorry, i can't support this anymore** because i don't use awtrix anymore!
+
+Take a look at [](https://github.com/lubeda/EsphoMaTrix) or host the awtrix server in a docker container.-
+
+
+
 # HowTo
 ## German
 
